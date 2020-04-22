@@ -1,3 +1,19 @@
 body{
   background-color: rebeccapurple;
+  font-family: monospace;
+}
+
+#assignments,
+#dino-pen {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.assignment,
+.dino {
+  border: 3px dotted yellow;
+  width: 300px;
+  height: 200px;
+  margin: 15px;
 }
